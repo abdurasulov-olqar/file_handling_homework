@@ -7,4 +7,10 @@ def main(data:str):
         int: return answer
     """
     
+    s = 0
+    for i in data:
+        if i in ('0123456789'):
+            s += int(i)
+
+    return s
 # Read data from file
