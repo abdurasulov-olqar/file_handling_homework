@@ -6,5 +6,9 @@ def main(data:str):
     Returns:
         list: return answer
     """
+    l = []
+    for i in data.split('\n'):
+        l.append(len(i))
+    return l
     
 # Read data from file
