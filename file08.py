@@ -6,5 +6,10 @@ def main(data:str):
     Returns:
         int: return answer
     """
+    lis = []
+    for i in data:
+        if i in ('0123456789'):
+            lis.append(int(i))
 
+    return max(lis)
 # Read data from file
